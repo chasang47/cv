@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#00ff00;
+}
+p{
+    line-height: 1.5;
+}
+hr{
+    border: dotted;
+    border-bottom: none;
+    color: #ff00ff;
+    width: 5%;
+    margin:80px 48%;
+    border-width: 10px;
+}
+ 
+nav{
+    background: #ff00ff;
+    height: 45px;
+    width: 100%;
+    text-align: right;
+}
+nav .logo{
+    font-size: 40px;
+    font-weight: bolder;
+    float: left;
+}
+
+nav ul li{
+    padding: 10px 30px 10px 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: bolder;
+    margin:11px ;
+    color: white;
+    box-shadow:inset 0 0 0 0 #D8BFD8 ;
+}
+nav ul li a:hover{
+    color: black;
+    transition: .5s;
+    box-shadow:inset 200px 0 0 0 #D8BFD8;
+    border-radius: 10%;
+    padding: 13px;
+}
+
+h2,h3{
+    color: #ff00ff;
+}
+img{
+border-radius: 100%;
+height: 200px;
+}
+.me{
+    text-align: center;
+    padding: 30px;
+}
+.code-container{
+    text-align: center;
+    padding: 30px 400px;
+    margin-top: 30px;
+}
+.code-container img{
+   float: left;
+   margin-right: 20px;
+}
+.code-container p{
+    text-align: left;
+}
+
+.sport-container{
+    text-align: center;
+    padding: 30px 400px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.sport-container img{
+    float: right;
+}
+.sport-container p{
+    text-align: left;
+}
+h3{
+    text-align: left;
+    font-size: 20px;
+}
+.btn{
+    height: 30px;
+    width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10%;
+    background-color:#fff0f5;
+}
